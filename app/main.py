@@ -42,3 +42,4 @@ class Distance:
     def __ge__(self, other: float | Distance) -> bool:
         value = other.km if isinstance(other, Distance) else other
         return self.km >= value
+
